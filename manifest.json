@@ -1,0 +1,18 @@
+{
+    "manifest_version":2,
+
+    "name": "Short Notes",
+    "description" : "A sticky Notes extension for the students who surffing in internet can takes notes easier with the URL and save as the PDF for their future Use",
+    "version" : "1.0",
+    "author":"Riyazur Razak N",
+    "icons":{
+        "16" : "smallicon.png",
+        "48" : "icon.png"
+    },
+
+    "browser_action":{
+       
+        "default_popup": "popup.html"
+    },
+    "permissions":["tabs"]
+}
